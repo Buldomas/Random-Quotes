@@ -9,8 +9,6 @@ class PostList extends React.Component {
     }
     onClick(posts) {
         this.props.fetchPostsAndUsers();
-        //this.setState({selectedVideo: video});
-        //return;
     }
     render() {
         return (
